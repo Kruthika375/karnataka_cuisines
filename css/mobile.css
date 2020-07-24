@@ -1,0 +1,71 @@
+#nav-bar .logo{
+    float: none;
+    text-align: center;
+}
+#nav-bar ul,#nav-bar ul li{
+    float: none;
+}
+#nav-bar ul li a{
+   padding: 5px;
+    border-bottom: #444 1px dotted;
+}
+
+#info-cuisine .info-img{
+    display: none;
+}
+#info-cuisine .info-content{
+    color: #fff;
+    float: none;
+    width: 100%;
+    text-align: center;
+    
+}
+.box{
+    float: none;
+    width: 100%;
+}
+#about-cusine .info-left,
+#about-cusine .info-right{
+    float: none;
+    width: 100%;
+
+}
+#about-cusine h1{
+    text-align: center;
+    font-size: 30px;
+}
+#about-cusine .info-right{
+    margin-bottom: 30px;
+}
+
+#testimonials h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#testimonials .testimonial img{
+    width: 100%;
+    float: none;
+}
+#contact-info .box1{
+    border-bottom: #444 dotted 1px;
+}
+#contact-info h1{
+    font-size: 20px;
+    padding-top: 14px;
+}
+#contact-info input,#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 6px;
+} 
+#contact-info textarea{
+    height: 150px;
+    width: 100%;
+    border-radius: 6px;
+}
+.foot1{
+    display: none;
+}
+ 

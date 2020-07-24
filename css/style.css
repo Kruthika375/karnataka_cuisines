@@ -1,0 +1,303 @@
+/*CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+p{
+   margin: 10px; 
+}
+/*UTILITY CLASSES */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    padding:0 20px;
+    
+}
+.bg-dark{
+    background-color: #333;
+    color:#fff;
+    font-size: 18px;
+    padding:9px;
+    border-radius: 5px;
+}
+.bg-primary{
+    background-color:orangered;
+    color:#333 ;
+}
+.bg-light{
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    align-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+    
+}
+.btn:hover{
+    background-color:orangered;
+    color:#333 ;
+}
+.clr{
+    clear: both;
+}
+.py-1{
+    padding: 10px 0;
+}
+.py-2{
+    padding: 20px 0;
+}
+.py-3{
+    padding: 30px 0;
+}
+
+/*CSS STYLING */
+#nav-bar{
+    background: #333;
+    overflow: auto;
+}
+#nav-bar  a{
+    color: #fff;
+    padding-top: 10px;
+}
+#nav-bar ul {
+    float: right;
+}
+#nav-bar .logo {
+    padding-top: 20px;
+    float: left;
+    font-family: 'Shadows Into Light', cursive;    
+}
+#nav-bar h1 a{
+    color: orangered;
+    font-size: 36px;
+}
+#nav-bar ul li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+#nav-bar ul li a:hover,#nav-bar ul li a.current{
+   color: orangered;
+   background-color: #333;
+}
+#showcase{
+    background: url('https://www.culturalindia.net/iliimages/South%20Indian%20Food_1.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#showcase h1{
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-shadow: rgba(0, 0, 0, 0.75) 0px 8px 8px;
+    letter-spacing: 1px;
+    font-size: 80px;
+    text-decoration: underline orangered;
+}
+#showcase .showcase-content p{
+    padding: 40px auto;
+    color: #fff;
+    width: 70%;
+    text-align: center;
+}
+#info-cuisine{
+    height: 400px;
+    background-color: #333;
+}
+#info-cuisine .info-img{
+    background: url('https://bangaloremirror.indiatimes.com/thumb/msid-66298874,width-1200,height-900,resizemode-4/.jpg') no-repeat center center/cover;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#info-cuisine .info-content{
+    color: #fff;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+#info-cuisine .info-content p{
+    padding-bottom: 30px;
+}
+.info-content a:hover{
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+}
+.box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 30px;
+}
+
+.box ul li{
+    list-style: none;
+    line-height: 1.9em;
+    
+}
+.instapic{
+    width: 50%;
+    min-width: 100%;
+    height: 200px;
+    
+}
+.box .dark-bg{
+    background-color: #333;
+    color: #fff;
+}
+.box ul li a:hover{
+    color: orangered;
+    background-color: #fff;
+
+}
+.box .dark{
+    padding: 5px;
+    width: 30%;
+    color: #fff;
+    background-color: #333;
+}
+.box .dark a p{
+    width: 20%;
+
+}
+#about-cusine .info-left{
+     float: left;
+     width: 50%;
+     min-height: 100%;
+}
+#about-cusine .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+   
+}
+#about-cusine .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius:50% ;
+}
+#copyright {
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
+#about-cusine h1{
+    font-size: 40px;
+}
+#testimonials{
+    background: url('https://the-shooting-star.com/wp-content/uploads/2016/02/img_5101.jpg') no-repeat center center/cover;
+    padding-top: 40px;
+    height:600px ;
+}
+#testimonials .testimonial{
+    margin-top: 22px;
+}
+
+#testimonials .testimonial img{
+       float: left;
+       width: 100px;
+       margin-right: 20px;
+       border-radius: 50%;
+}
+#testimonials h1{
+    margin-left: 170px;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#contact-info {
+   text-align: center;
+   line-height: 1.8em;
+   color: #fff;
+   background: url('https://image.freepik.com/free-photo/indian-thali-food-dal-makhani-wooden-background_55610-436.jpg')
+   no-repeat center center/cover;
+   height: 700px;
+}
+#contact-info h1{
+    font-size: 40px;
+    padding-top: 14px;
+}
+#contact-info .box1{
+    background-color: orangered;
+    border-radius: 9px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+#contact-info .form-group{
+    margin-bottom: 20px;
+}
+#contact-info label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-info input,#contact-form textarea{
+    width: 70%;
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 6px;
+} 
+#contact-info input:focus,
+#contact-info textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+    
+}
+#contact-info textarea{
+    height: 200px;
+    width: 70%;
+    border-radius: 6px;
+}
+.btn1{
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-family: monospace;
+    align-content: center;
+    font-weight: 700; 
+    margin-bottom: 7px;  
+    border-radius: 7px;
+}
+.btn1:hover{
+    background-color:#fff;
+    color: orangered;
+    cursor: pointer;
+}
+.form-group label{
+    font-weight: bold;
+}
+#foot{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+}
