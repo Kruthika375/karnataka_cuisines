@@ -286,11 +286,13 @@ p{
     font-weight: 700; 
     margin-bottom: 7px;  
     border-radius: 7px;
+    transition: all 1s ease-in-out;
 }
 .btn1:hover{
     background-color:#fff;
     color: orangered;
     cursor: pointer;
+
 }
 .form-group label{
     font-weight: bold;
@@ -301,3 +303,22 @@ p{
     text-align: center;
     padding: 6px;
 }
+/* 
+#showcase .showcase-content h1{
+    transform: translateY(-1200px);
+    animation: heading 1s forwards ease-in;
+}
+@keyframes heading{
+    to{
+       transform: translateY(0px);
+    }
+}
+#showcase .showcase-content p{
+    transform: translateX(-1900px);
+    animation: para 2s forwards ease-in;
+}
+@keyframes para{
+    to{
+       transform: translateX(0px);
+    }
+} */
