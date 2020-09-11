@@ -15,10 +15,8 @@
 }
 #info-cuisine .info-content{
     color: #fff;
-    float: none;
     width: 100%;
-    text-align: center;
-    
+    float: right;
 }
 .box{
     float: none;
@@ -40,12 +38,19 @@
 
 #testimonials h1{
     font-size: 40px;
-    margin-left: 30px;
+    margin: auto;
 }
-
+#testimonials{
+    background: url('https://the-shooting-star.com/wp-content/uploads/2016/02/img_5101.jpg') no-repeat center center/cover;
+    padding-top: 40px;
+    height:770px ;
+}
 #testimonials .testimonial img{
-    width: 100%;
-    float: none;
+    max-width: 100%;
+    float: left;
+}
+#testimonials .testimonial  p{
+    font-size: small;
 }
 #contact-info .box1{
     border-bottom: #444 dotted 1px;
@@ -74,6 +79,5 @@
 
 }
 .foot1{
-    display: none;
+    display: block;
 }
- 
